@@ -1,0 +1,67 @@
+/*
+ style.css
+*/
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    -webkit-app-region: drag;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#dd2726;
+}
+.container{
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+}
+.title{
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #ececec;
+    border-bottom: 1px solid #ddd;
+}
+.search{
+    padding: 10px 20px;
+}
+.music-name{
+    margin-right: 12px;
+    width: 300px;
+    height: 28px;
+    text-indent: 16px;
+    border: none;
+    border:1px solid #ddd;
+    -webkit-app-region: no-drag;
+}
+.btn-search-music{
+    width: 65px;
+    height: 32px;
+    -webkit-app-region: no-drag;
+}
+.music-list{
+    margin: auto;
+    width: 460px;
+    border:1px solid #ddd;
+}
+.music-list li{
+    height: 32px;
+    color:#666;
+    text-indent: 12px;
+    line-height: 32px;
+    border-bottom: 1px solid #eee;
+}
+.playing,.stop{
+    float: right;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}

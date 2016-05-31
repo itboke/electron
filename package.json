@@ -1,0 +1,8 @@
+{
+  "name": "MY MUSIC",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "electron-packager": "^7.0.2"
+  }
+}
